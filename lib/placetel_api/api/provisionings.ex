@@ -89,7 +89,7 @@ defmodule PlacetelAPI.Api.Provisionings do
 
   - `connection` (PlacetelAPI.Connection): Connection to server
   - `opts` (keyword): Optional parameters
-    - `:search` (String.t): 
+    - `:search` (String.t):
     - `:page` (integer()): Page of results to fetch.
     - `:per_page` (integer()): Number of results to return per page.
 
@@ -190,7 +190,7 @@ defmodule PlacetelAPI.Api.Provisionings do
   ### Parameters
 
   - `connection` (PlacetelAPI.Connection): Connection to server
-  - `provisionings` (PostProvisionings): 
+  - `provisionings` (PostProvisionings):
   - `opts` (keyword): Optional parameters
 
   ### Returns
@@ -255,7 +255,7 @@ defmodule PlacetelAPI.Api.Provisionings do
 
   - `connection` (PlacetelAPI.Connection): Connection to server
   - `id` (integer()): ID
-  - `provisionings` (PutProvisionings): 
+  - `provisionings` (PutProvisionings):
   - `opts` (keyword): Optional parameters
 
   ### Returns
@@ -292,7 +292,7 @@ defmodule PlacetelAPI.Api.Provisionings do
 
   - `connection` (PlacetelAPI.Connection): Connection to server
   - `id` (integer()): ID
-  - `provisionings_id_custom_configurations` (PutProvisioningsIdCustomConfigurations): 
+  - `provisionings_id_custom_configurations` (PutProvisioningsIdCustomConfigurations):
   - `opts` (keyword): Optional parameters
 
   ### Returns

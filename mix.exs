@@ -5,7 +5,7 @@ defmodule PlacetelAPI.Mixfile do
   def project do
     [
       app: :placetel_api,
-      version: "2.0.0",
+      version: "2.0.1",
       elixir: "~> 1.12",
       source_url: @project_url,
       homepage_url: @project_url,

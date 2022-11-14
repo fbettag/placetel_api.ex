@@ -44,11 +44,11 @@ defimpl Poison.Decoder, for: PlacetelAPI.Model.Provisioning do
   def decode(value, options) do
     value
     |> deserialize(:webuser, :struct, PlacetelAPI.Model.User, options)
-    |> deserialize(:lines, :struct, PlacetelAPI.Model.Line, options)
-    |> deserialize(:keys, :struct, PlacetelAPI.Model.Key, options)
+    |> deserialize(:lines, :list, PlacetelAPI.Model.Line, options)
+    |> deserialize(:keys, :list, PlacetelAPI.Model.Key, options)
     |> deserialize(
       :custom_configurations,
-      :struct,
+      :list,
       PlacetelAPI.Model.CustomConfiguration,
       options
     )
